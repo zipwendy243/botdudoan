@@ -1,0 +1,17 @@
+{
+    "welcome_message": "🎉 <b>Welcome to Nova88!</b>\n\n🤖 <b>Main features:</b>\n🔮 Get lottery predictions for Vietnam and International lotteries\n🎰 Detailed information about slot games\n💥 Daily promotions for members\n\n<b>Select a command to begin:</b> \n/du_doan (Vietnam lottery prediction: North, Central, South)\n/du_doan_4d (4D Singapore/Malaysia lottery prediction)\n/du_doan_thai (Thai lottery prediction)\n/du_doan_indo (Indonesian lottery prediction)\n/ds_slot (View list of popular slot games)\n/slotgame [Game Name] (View detailed information about a slot game)\n\n✅ <b>Nova88 - Ultimate Entertainment, Register Now for Rewards!</b>",
+    "welcome_caption": "🎉 <b>Welcome to Nova88!</b>\n\n✅ Nova88 - Ultimate Entertainment, Register Now for Rewards!",
+    "help_message": "<b>👋 Hello! I'm the PGSoft & Lottery bot</b>\n\n<b>Available commands:</b>\n\n🎯 <b>Vietnam Lottery:</b>\n/du_doan - Get today's lottery predictions for North, Central, South regions\n\n🌏 <b>International Lotteries:</b>\n/du_doan_4d - 4D Singapore/Malaysia lottery prediction\n/du_doan_thai - Thai lottery prediction\n/du_doan_indo - Indonesian (Togel) lottery prediction\n\n🎮 <b>PGSoft Games:</b>\n/ds_slot - View list of popular PGSoft slot games\n/slotgame [Game Name] - View detailed information about a specific game\n  <i>Example: /slotgame Mahjong Ways 2</i>\n\n🌐 <b>Language:</b>\n/language - Change display language",
+    "default_message": "Choose available commands from the menu or type /help to see the full list of commands.",
+    "slot_list_intro": "🎮 <b>Popular PGSoft Games List:</b>\n\nHere is a list of popular PGSoft slot games that we recommend:\n",
+    "slot_game_error": "❌ Please enter a game name after the /slotgame command. Example: /slotgame Mahjong Ways 2",
+    "command_not_recognized": "Command not recognized. Use /help to see the list of available commands.",
+    "language_selection": "👋 <b>Select Your Language</b>\n\nPlease choose the language you'd like to use:",
+    "language_updated": "✅ Your language has been updated to: <b>{language}</b>",
+    "promotion_button": "🎁 Promotion",
+    "bet_now_button": "🎲 Bet Now",
+    "jackpot_button": "🎮 Jackpot",
+    "slots_rtp_button": "🎰 Slots RTP",
+    "error_message": "❌ An error occurred. Please try again later or contact an administrator.",
+    "lucky_text": "Good luck!"
+}

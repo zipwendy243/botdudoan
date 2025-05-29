@@ -1,0 +1,17 @@
+{
+    "welcome_message": "🎉 <b>欢迎来到 Nova88！</b>\n\n🤖 <b>主要功能：</b>\n🔮 获取越南和国际彩票预测\n🎰 老虎机游戏详细信息\n💥 会员每日优惠\n\n<b>选择以下命令开始：</b> \n/du_doan （越南彩票预测：北部、中部、南部）\n/du_doan_4d （新加坡/马来西亚4D彩票预测）\n/du_doan_thai （泰国彩票预测）\n/du_doan_indo （印尼彩票预测）\n/ds_slot （查看热门老虎机游戏列表）\n/slotgame [游戏名称] （查看老虎机游戏详细信息）\n\n✅ <b>Nova88 - 极致娱乐体验，立即注册领取奖励！</b>",
+    "welcome_caption": "🎉 <b>欢迎来到 Nova88！</b>\n\n✅ Nova88 - 极致娱乐体验，立即注册领取奖励！",
+    "help_message": "<b>👋 您好！我是 PGSoft 和彩票机器人</b>\n\n<b>可用命令：</b>\n\n🎯 <b>越南彩票：</b>\n/du_doan - 获取今日越南北部、中部、南部彩票预测\n\n🌏 <b>国际彩票：</b>\n/du_doan_4d - 新加坡/马来西亚4D彩票预测\n/du_doan_thai - 泰国彩票预测\n/du_doan_indo - 印尼彩票预测(Togel)\n\n🎮 <b>PGSoft 游戏：</b>\n/ds_slot - 查看热门 PGSoft 老虎机游戏列表\n/slotgame [游戏名称] - 查看特定游戏的详细信息\n  <i>例如：/slotgame Mahjong Ways 2</i>\n\n🌐 <b>语言：</b>\n/language - 更改显示语言",
+    "default_message": "从菜单中选择可用命令或输入 /help 查看完整命令列表。",
+    "slot_list_intro": "🎮 <b>热门 PGSoft 游戏列表：</b>\n\n以下是我们推荐的热门 PGSoft 老虎机游戏列表：\n",
+    "slot_game_error": "❌ 请在 /slotgame 命令后输入游戏名称。例如：/slotgame Mahjong Ways 2",
+    "command_not_recognized": "无法识别命令。使用 /help 查看可用命令列表。",
+    "language_selection": "👋 <b>选择您的语言</b>\n\n请选择您想使用的语言：",
+    "language_updated": "✅ 您的语言已更新为：<b>{language}</b>",
+    "promotion_button": "🎁 优惠活动",
+    "bet_now_button": "🎲 立即投注",
+    "jackpot_button": "🎮 奖池",
+    "slots_rtp_button": "🎰 老虎机回报率",
+    "error_message": "❌ 发生错误。请稍后再试或联系管理员。",
+    "lucky_text": "祝您好运！"
+}

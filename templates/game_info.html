@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ game_name }} - PGSoft Game Information</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+            background-color: #121212;
+            color: #fff;
+        }
+        .game-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .game-image {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+        .game-content {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .rtp-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            background-color: #ff9800;
+            color: #000;
+            border-radius: 16px;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .btn-nova {
+            background-color: #ff9800;
+            color: #000;
+            font-weight: bold;
+            border: none;
+        }
+        .btn-nova:hover {
+            background-color: #ffb74d;
+            color: #000;
+        }
+        .feature-section {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .feature-heading {
+            color: #ff9800;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="game-header">
+            <h1>🎮 {{ game_name }} 🎮</h1>
+            <a href="/" class="btn btn-secondary">← Trở về trang chủ</a>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                {% if image_url %}
+                <img src="{{ image_url }}" alt="{{ game_name }}" class="game-image">
+                {% endif %}
+                
+                {% if rtp and rtp != "N/A" %}
+                <div class="rtp-badge">RTP: {{ rtp }}</div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-8 mx-auto">
+                <div class="game-content">
+                    {{ game_info|safe }}
+                </div>
+                
+                <div class="text-center mt-4 mb-4">
+                    <a href="https://nova88bet.top/" target="_blank" class="btn btn-nova btn-lg">
+                        Chơi Ngay tại Nova88bet
+                    </a>
+                    
+                    <a href="https://t.me/nova88code_bot" target="_blank" class="btn btn-primary btn-lg ms-2">
+                        Sử Dụng Bot Telegram
+                    </a>
+                </div>
+                
+                <div class="mt-5">
+                    <h3>Thông Tin Game Khác</h3>
+                    
+                    <div class="row mt-3">
+                        {% for game in related_games %}
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="card bg-dark">
+                                <img src="{{ game.image }}" class="card-img-top" alt="{{ game.name }}">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ game.name }}</h5>
+                                    <a href="/test-slot-game?game={{ game.name }}" class="btn btn-sm btn-primary">Xem Chi Tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="text-center text-muted mt-5">
+            <small>© 2025 Nova88. All rights reserved.</small>
+        </footer>
+    </div>
+</body>
+</html>

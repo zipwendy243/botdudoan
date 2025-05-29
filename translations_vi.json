@@ -1,0 +1,17 @@
+{
+    "welcome_message": "🎉 <b>Chào mừng bạn đến với Nova88!</b>\n\n🤖 <b>Chức năng chính:</b>\n🔮 Nhận dự đoán kết quả xổ số Việt Nam và Quốc tế\n🎰 Thông tin chi tiết về các game slot\n💥 Khuyễn mãi hàng ngày dành cho thành viên\n\n<b>Chọn chức năng sau để bắt đầu:</b> \n/du_doan (Dự đoán xổ số Việt Nam: Bắc, Trung, Nam)\n/du_doan_4d (Dự đoán xổ số 4D Singapore/Malaysia)\n/du_doan_thai (Dự đoán xổ số Thái Lan)\n/du_doan_indo (Dự đoán xổ số Indonesia)\n/ds_slot (Để xem danh sách các game slot phổ biến)\n/slotgame [Tên Game] (Để xem thông tin chi tiết về game slot)\n\n✅ <b>Nova88 Đỉnh Cao Giải Trí, Đăng Ký Nhận Thưởng Ngay!</b>",
+    "welcome_caption": "🎉 <b>Chào mừng bạn đến với Nova88!</b>\n\n✅ Nova88 Đỉnh Cao Giải Trí, Đăng Ký Nhận Thưởng Ngay!",
+    "help_message": "<b>👋 Xin chào! Tôi là bot PGSoft & Xổ số</b>\n\n<b>Các lệnh có sẵn:</b>\n\n🎯 <b>Xổ số Việt Nam:</b>\n/du_doan - Nhận dự đoán xổ số hôm nay cho các miền Bắc, Trung, Nam\n\n🌏 <b>Xổ số Quốc tế:</b>\n/du_doan_4d - Dự đoán xổ số 4D Singapore/Malaysia\n/du_doan_thai - Dự đoán xổ số Thái Lan\n/du_doan_indo - Dự đoán xổ số Indonesia (Togel)\n\n🎮 <b>Game PGSoft:</b>\n/ds_slot - Xem danh sách các game slot PGSoft phổ biến\n/slotgame [Tên Game] - Xem thông tin chi tiết về một game cụ thể\n  <i>Ví dụ: /slotgame Mahjong Ways 2</i>\n\n🌐 <b>Ngôn ngữ:</b>\n/language - Thay đổi ngôn ngữ hiển thị",
+    "default_message": "Chọn các lệnh có sẵn từ menu hoặc nhập /help để xem danh sách lệnh đầy đủ.",
+    "slot_list_intro": "🎮 <b>Danh sách Game PGSoft phổ biến:</b>\n\nĐây là danh sách các game slot PGSoft phổ biến mà chúng tôi đề xuất:\n",
+    "slot_game_error": "❌ Vui lòng nhập tên game sau lệnh /slotgame. Ví dụ: /slotgame Mahjong Ways 2",
+    "command_not_recognized": "Lệnh không được nhận dạng. Sử dụng /help để xem danh sách các lệnh.",
+    "language_selection": "👋 <b>Chọn ngôn ngữ của bạn</b>\n\nVui lòng chọn ngôn ngữ bạn muốn sử dụng:",
+    "language_updated": "✅ Ngôn ngữ của bạn đã được cập nhật thành: <b>{language}</b>",
+    "promotion_button": "🎁 Khuyến mãi",
+    "bet_now_button": "🎲 Đặt cược ngay",
+    "jackpot_button": "🎮 Jackpot",
+    "slots_rtp_button": "🎰 Slots RTP",
+    "error_message": "❌ Đã xảy ra lỗi. Vui lòng thử lại sau hoặc liên hệ với quản trị viên.",
+    "lucky_text": "Chúc bạn may mắn!"
+}

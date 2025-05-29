@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nova88 PGSoft Bot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+            background-color: #121212;
+            color: #fff;
+        }
+        .header-banner {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .header-banner img {
+            width: 100%;
+            height: auto;
+        }
+        .feature-card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .feature-heading {
+            color: #ff9800;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .feature-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .btn-nova {
+            background-color: #ff9800;
+            color: #000;
+            font-weight: bold;
+            border: none;
+        }
+        .btn-nova:hover {
+            background-color: #ffb74d;
+            color: #000;
+        }
+        .command-example {
+            background-color: #2a2a2a;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-family: monospace;
+        }
+        .slot-game-section {
+            margin-top: 40px;
+        }
+        .game-container {
+            display: flex;
+            overflow-x: auto;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+        .game-card {
+            min-width: 200px;
+            margin-right: 15px;
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .game-card img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+        .game-card .game-title {
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .rtp-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #ff9800;
+            color: #000;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-banner">
+            <img src="https://nova88bet.top/wp-content/uploads/2025/05/photo_2025-05-08_15-19-02.jpg" alt="Nova88 Banner">
+        </div>
+        
+        <h1 class="text-center mb-4">🤖 Nova88 - Telegram Bot</h1>
+        
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="feature-card">
+                    <h3 class="feature-heading"><span class="feature-icon">🎯</span> Dự Đoán Xổ Số Việt Nam</h3>
+                    <p>Nhận dự đoán xổ số hàng ngày cho các miền Bắc, Trung, Nam với kết quả ngẫu nhiên và hấp dẫn.</p>
+                    <div class="command-example">
+                        /du_doan
+                    </div>
+                    <a href="/test-prediction?type=vietnam" class="btn btn-sm btn-primary mt-2">Xem mẫu dự đoán</a>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="feature-card">
+                    <h3 class="feature-heading"><span class="feature-icon">🎮</span> Thông Tin Game Slot</h3>
+                    <p>Tra cứu thông tin chi tiết về các game slot PGSoft phổ biến, bao gồm RTP và hình ảnh.</p>
+                    <div class="command-example">
+                        /slotgame Mahjong Ways 2
+                    </div>
+                    <a href="/test-mahjong" class="btn btn-sm btn-primary mt-2">Xem mẫu thông tin game</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h3 class="feature-heading"><span class="feature-icon">🇸🇬</span> Dự Đoán 4D</h3>
+                    <p>Dự đoán xổ số 4D Singapore/Malaysia với các số 4 chữ số ngẫu nhiên.</p>
+                    <div class="command-example">
+                        /du_doan_4d
+                    </div>
+                    <a href="/test-prediction?type=4d" class="btn btn-sm btn-success mt-2">Xem mẫu dự đoán</a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h3 class="feature-heading"><span class="feature-icon">🇹🇭</span> Xổ Số Thái Lan</h3>
+                    <p>Dự đoán xổ số Thái Lan (หวยรัฐบาลไทย) với các số ngẫu nhiên.</p>
+                    <div class="command-example">
+                        /du_doan_thai
+                    </div>
+                    <a href="/test-prediction?type=thai" class="btn btn-sm btn-warning mt-2">Xem mẫu dự đoán</a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h3 class="feature-heading"><span class="feature-icon">🇮🇩</span> Xổ Số Indonesia</h3>
+                    <p>Dự đoán xổ số Indonesia (Togel) với các số ngẫu nhiên.</p>
+                    <div class="command-example">
+                        /du_doan_indo
+                    </div>
+                    <a href="/test-prediction?type=indo" class="btn btn-sm btn-info mt-2">Xem mẫu dự đoán</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-4 mb-5">
+            <a href="https://t.me/nova88code_bot" target="_blank" class="btn btn-nova btn-lg">
+                Truy cập Bot Ngay
+            </a>
+            <a href="/test-mahjong" class="btn btn-primary btn-lg ms-2">
+                Xem Demo Game Slot
+            </a>
+        </div>
+        
+        <div class="slot-game-section">
+            <h2 class="text-center mb-4">🎰 PGSoft Game Phổ Biến</h2>
+            
+            <div class="game-container">
+                {% for game in popular_games %}
+                <div class="game-card">
+                    <a href="/test-mahjong?game={{ game.name }}">
+                        <img src="{{ game.image }}" alt="{{ game.name }}">
+                    </a>
+                    <div class="game-title">
+                        {{ game.name }}
+                        <div class="rtp-badge">RTP: {{ game.rtp }}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="text-center mt-5 mb-3">
+            <a href="https://nova88bet.top/" target="_blank" class="btn btn-nova">
+                Truy cập Nova88bet
+            </a>
+        </div>
+        
+        <footer class="mt-5 text-center text-muted">
+            <small>© 2025 Nova88. All rights reserved.</small>
+        </footer>
+    </div>
+</body>
+</html>
